@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Nav extends Component {
   render() {
         return (
             <ul>
               <li>
-              	<a href="#"> Home </a>
+              	<Link to="/"> Home </Link>
            		</li>
            		<li>
-              	<a href="#"> About </a>
+              	<Link to="/about"> About </Link>
            		</li>
            		<li>
-              	<a href="#"> Sign up </a>
+              	<Link to="/signup"> Signup </Link>
            		</li>
             </ul>
         );
